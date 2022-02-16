@@ -89,7 +89,8 @@ def insert_keyframes(obj, frames, scene_fps=30.0, frame_offset=0):
 
 #############################################
 
-#scan_path = "/Users/cc/Downloads/2022_01_09_12_54_15/optimized_poses"
+# Set scan path 
+scan_path = "/Users/cc/Downloads/2022_01_09_12_54_15/optimized_poses"
 
 frames = load_frames(scan_path)
 
