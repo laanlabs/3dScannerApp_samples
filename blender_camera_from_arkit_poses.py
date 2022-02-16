@@ -89,8 +89,11 @@ def insert_keyframes(obj, frames, scene_fps=30.0, frame_offset=0):
 
 #############################################
 
-# Set scan path 
-scan_path = "/Users/cc/Downloads/2022_01_09_12_54_15/optimized_poses"
+# Set scan path to a LiDAR scan:
+scan_path = "/Users/cc/Downloads/2022_01_09_12_54_15"
+
+# TrueDepth scans should use 'optimized_poses' folder
+#scan_path = "/Users/cc/Downloads/2022_01_09_12_54_15/optimized_poses"
 
 frames = load_frames(scan_path)
 
