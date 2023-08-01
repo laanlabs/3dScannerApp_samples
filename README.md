@@ -1,5 +1,5 @@
 # 3dScannerApp_samples
-Place for sample code / notebooks 
+Python code samples for the "3d Scanner App" iOS LiDAR Scanner on the App Store. 
 
 
 ## Projecting 3d points onto scan images
